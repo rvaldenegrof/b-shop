@@ -1,0 +1,16 @@
+.footer {
+    background-color: $raisin-black !important;
+    display: table;
+    padding: 60px;
+    text-align: center;
+  
+    &__logo-footer {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+    &__logo {
+      height: auto;
+      width: 60px;
+    }
+  }

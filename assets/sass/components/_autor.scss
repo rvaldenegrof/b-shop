@@ -1,0 +1,64 @@
+.autor {
+    border: 1px solid $platinum;
+    padding: 50px;
+  
+    &__nombre {
+      color: $eerie-black;
+      font-family: $sf;
+      font-size: $x-large;
+      font-style: $sf-italic;
+      font-weight: $sf-black;
+    }
+  
+    &__nombre,
+    &__rs,
+    &__web {
+        display: block;
+    }
+  
+    &__bio {
+      display: none;
+
+      @include lp-vw {
+        margin-left: 50px;
+        display: table;
+        vertical-align: middle;
+        width: calc(100% - 430px);
+      }
+    }
+  
+    &__info {
+        padding: 20px 0 0;
+        text-align: center;
+
+        @include lp-vw {
+            display: inline-table;
+            margin: 0 0 0 50px;
+            padding: 0;
+            text-align: left;
+            vertical-align: middle;
+            width: 170px;
+        }
+    }
+  }
+  
+  .avatar {
+    text-align: center;
+    display: block;
+  
+    &__image {
+      border-radius: 50%;
+      height: auto;
+      width: 120px;
+  
+      @include lp-vw {
+        width: 150px;
+      }
+    }
+  
+    @include lp-vw {
+      display: inline-table;
+      text-align: left;
+      vertical-align: middle;
+    }
+  }

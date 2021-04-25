@@ -1,0 +1,29 @@
+.post {
+    font-size: $medium;
+    padding: 40px 40px 0;
+  
+    &__fecha {
+      color: $nickel;
+      font-family: $sf;
+      margin: 0 0 40px;
+    }
+  
+    &__texto {
+      font-family: $pf;
+      line-height: 2;
+    }
+  
+    &__rs {
+      height: 50px;
+      margin: 50px 0;
+      text-align: center;
+      
+      @include lp-vw {
+        text-align: left;
+      }
+    }
+
+    @include lp-vw {
+        padding: 40px 60px 0;
+      }
+  }

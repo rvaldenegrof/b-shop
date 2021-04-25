@@ -1,0 +1,22 @@
+.button {
+  background-color: $nickel;
+  border-radius: 30px;
+  color: $white;
+
+  &--md {
+    padding: 10px 35px;
+  }
+
+  &--sm {
+    padding: 9px 16px;
+  }
+
+  &--md,
+  &--sm {
+    font-size: $medium;
+
+    &:hover {
+      background-color: $light-gray;
+    }
+  }
+}

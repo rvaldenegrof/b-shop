@@ -1,0 +1,44 @@
+// PRIMER ESQUEMA DE COLORES
+$white: #FFF;
+$platinum: #E6E7E7;
+$light-gray: #D1D1D1;
+// SEGUNDO ESQUEMA DE COLORES
+$fuzzy-wuzzy: #E56353;
+$ruddy-pink: #D76C69;
+$spanish-pink: #ECBCBA;
+// TERCER ESQUEMA DE COLORES
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6C6E70;
+
+// FUENTES
+// ROBOTO
+$roboto: 'Roboto', sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+
+// PLAYFAIR
+$playfair: 'Playfair Display', serif;
+$playfair-bold: 400;
+$playfair-black: 900;
+$playfair-italic: italic;
+
+// TAMAÑOS
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+//COMBINACIÓN ENTRE TAMAÑOS Y TIPOS
+//pf:primary-font
+$pf: $roboto;
+$pf-light: $roboto-light;
+$pf-regular: $roboto-regular;
+$sf: $playfair;
+$sf-bold: $playfair-bold;
+$sf-black: $playfair-black;
+$sf-italic: $playfair-italic;
+
+// BREAKPOINT
+$min-lp: 992px;

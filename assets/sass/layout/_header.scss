@@ -1,0 +1,18 @@
+.header {
+    background-image: url('../images/post-image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    display: table;
+    font-family: $sf;
+    font-size: $x-large;
+    font-style: $sf-italic;
+    font-weight: $sf-black;
+    height: 600px;
+    text-align: center;
+  
+    &__texto {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
