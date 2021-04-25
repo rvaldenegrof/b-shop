@@ -20,10 +20,11 @@
       display: none;
 
       @include lp-vw {
-        margin-left: 50px;
-        display: table;
+        margin: 0 0 0 50px;
+        display: inline-table;
         vertical-align: middle;
-        width: calc(100% - 430px);
+        //calculo del ancho en vista lp
+        width: calc(100% - 500px);
       }
     }
   
@@ -37,7 +38,7 @@
             padding: 0;
             text-align: left;
             vertical-align: middle;
-            width: 170px;
+            width: 200px;
         }
     }
   }
@@ -49,7 +50,7 @@
     &__image {
       border-radius: 50%;
       height: auto;
-      width: 120px;
+      width: 150px;
   
       @include lp-vw {
         width: 150px;

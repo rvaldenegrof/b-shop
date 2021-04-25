@@ -10117,10 +10117,10 @@ table {
 }
 @media (min-width: 992px) {
   .autor__bio {
-    margin-left: 50px;
-    display: table;
+    margin: 0 0 0 50px;
+    display: inline-table;
     vertical-align: middle;
-    width: calc(100% - 430px);
+    width: calc(100% - 500px);
   }
 }
 .autor__info {
@@ -10134,7 +10134,7 @@ table {
     padding: 0;
     text-align: left;
     vertical-align: middle;
-    width: 170px;
+    width: 200px;
   }
 }
 
@@ -10145,7 +10145,7 @@ table {
 .avatar__image {
   border-radius: 50%;
   height: auto;
-  width: 120px;
+  width: 150px;
 }
 @media (min-width: 992px) {
   .avatar__image {
