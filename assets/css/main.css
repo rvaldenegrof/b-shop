@@ -10002,10 +10002,17 @@ table {
   font-weight: 900;
   height: 600px;
   text-align: center;
+  align-content: center;
 }
 .header__texto {
   display: table-cell;
   vertical-align: middle;
+}
+.header__icono {
+  color: white;
+  display: table;
+  align-items: center;
+  padding-left: 50%;
 }
 
 .footer {

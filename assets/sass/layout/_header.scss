@@ -10,9 +10,17 @@
     font-weight: $sf-black;
     height: 600px;
     text-align: center;
+    align-content: center;
   
     &__texto {
       display: table-cell;
       vertical-align: middle;
+    }
+
+    &__icono {
+      color: white;
+      display: table;
+      align-items: center;
+      padding-left: 50%;
     }
   }
